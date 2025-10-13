@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     siteName: "Cedric Murairi",
     images: [
       {
-        url: "../public/images/my-dp-image.jpg",
-        width: 1200, // standard OpenGraph dimension
-        height: 800,
+        url: "https://www.murairi.com/images/my-dp-image.jpg",
+        width: 1200,
+        height: 630,
         alt: "Portrait of Cedric Murairi",
       },
     ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Cedric Murairi — Founder of CodeXtreme",
     description:
       "Engineer, innovator, and craftsman working at the intersection of technology, business, and education in Africa.",
-    images: ["../public/images/my-dp-image.jpg"],
+    images: ["https://www.murairi.com/images/my-dp-image.jpg"],
     creator: "@CedricMurairi",
   },
   icons: {
