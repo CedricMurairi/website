@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Cinzel } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-
-const cinzel = Cinzel({
-  subsets: ['latin'],
-  variable: '--font-cinzel',
-});
 
 const euclid = localFont({
   src: '../public/fonts/euclid-circular-a.ttf',
@@ -15,7 +9,7 @@ const euclid = localFont({
 
 export const metadata: Metadata = {
   title: "Cedric Murairi - Founder of CodeXtreme",
-  description: "Engineer, Innovator and Superior Craftsman working on the intersection of technology, business and education in Africa.",
+  description: "Engineer, Innovator and Superior Craftsman working at the intersection of technology, business and education in Africa.",
 };
 
 export default function RootLayout({
@@ -26,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzel.variable} ${euclid.variable} antialiased`}
+        className={`${euclid.variable} antialiased`}
       >
         {children}
       </body>
