@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       {
         url: "../public/images/my-dp-image.jpg",
         width: 1200, // standard OpenGraph dimension
-        height: 630,
+        height: 800,
         alt: "Portrait of Cedric Murairi",
       },
     ],
