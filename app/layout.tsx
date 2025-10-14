@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Cedric Murairi — Founder of CodeXtreme",
   description:
     "Engineer, innovator, and craftsman working at the intersection of technology, business, and education in Africa.",
-  metadataBase: new URL("https://www.murairi.com"), // helps generate absolute URLs
+  metadataBase: new URL("https://www.murairi.com"),
   openGraph: {
     title: "Cedric Murairi — Founder of CodeXtreme",
     description:
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Cedric Murairi",
     images: [
       {
-        url: "https://www.murairi.com/images/my-dp-image.jpg",
+        url: "https://www.murairi.com/images/my-dp-image-crop.jpg",
         width: 1200,
         height: 630,
         alt: "Portrait of Cedric Murairi",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Cedric Murairi — Founder of CodeXtreme",
     description:
       "Engineer, innovator, and craftsman working at the intersection of technology, business, and education in Africa.",
-    images: ["https://www.murairi.com/images/my-dp-image.jpg"],
+    images: ["https://www.murairi.com/images/my-dp-image-crop.jpg"],
     creator: "@CedricMurairi",
   },
   icons: {
