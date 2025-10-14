@@ -15,7 +15,8 @@ export default function IdCard() {
                 />
             </div>
             <div className='space-y-1'>
-                <h1 className='text-2xl'>Cédric Murairi</h1>
+                <h1 className='text-2xl hidden md:block'>Cédric Murairi</h1>
+                <h1 className='text-2xl block md:hidden'>Cédric M.</h1>
                 <p className='text-xs block md:hidden'>Founder of CodeXtreme</p>
                 <p className='text-xs hidden md:block'>Founder and Head Honcho of CodeXtreme</p>
             </div>
