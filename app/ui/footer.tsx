@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="space-y-2">
                     <h1 className="font-semibold">Companies</h1>
                     <ul>
-                        <li><Link href="https://codextreme.io">CodeXtreme</Link></li>
+                        <li><Link target="_blank" href="https://codextreme.io">CodeXtreme</Link></li>
                     </ul>
                 </div>
                 <div className="space-y-2">
