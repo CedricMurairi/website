@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <footer className="w-full">
@@ -11,7 +13,7 @@ export default function Footer() {
                 <div className="space-y-2">
                     <h1 className="font-semibold">Companies</h1>
                     <ul>
-                        <li>CodeXtreme</li>
+                        <li><Link href="https://codextreme.io">CodeXtreme</Link></li>
                     </ul>
                 </div>
                 <div className="space-y-2">
@@ -26,6 +28,7 @@ export default function Footer() {
                     <h1 className="font-semibold">Follow</h1>
                     <ul className="space-y-1">
                         <li>LinkedIn</li>
+                        <li>Instagram</li>
                         <li>X - Twitter</li>
                     </ul>
                 </div>
