@@ -46,8 +46,8 @@ export default function CedBuilds() {
                         </div>
                         <h2 className="text-sm mb-2">Got a small, fun, or cool idea for Cédric Builds?</h2>
                         <div className="space-y-1 text-xs mb-2">
-                            <p className="text-xs">Send an email to <Link className="underline" href="ping@murairi.com">ping@murairi.com</Link> and start your subject with [Cédric Builds].</p>
-                            <p className="text-xs">I will review your idea and get back to you. The only rules: it has to be small, cool, and fun — and yes, it has to be software 🙂.</p>
+                            <p className="text-xs">Send an email to <Link className="underline" href="mailto:cedric@murairi.com">cedric@murairi.com</Link> and start your subject with [Cédric Builds].</p>
+                            <p className="text-xs">I will review your idea and get back to you. The only rules: it has to be small, cool, and fun — and yes, it has to be software 🙂, for now.</p>
                         </div>
                         <button onClick={() => closeWorkModel()} className="mt-4 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Close</button>
                     </div>

@@ -9,7 +9,7 @@ export default function CTA() {
             </div>
             <div className="space-y-1">
                 <p className="text-[10px]">Got an idea worth building?</p>
-                <Link href="mailto:ping@murairi.com"><p className="text-center min-w-fit rounded-full border py-2 px-3 w-full">Let&apos;s talk</p></Link>
+                <Link href="mailto:cedric@murairi.com"><p className="text-center min-w-fit rounded-full border py-2 px-3 w-full">Let&apos;s talk</p></Link>
             </div>
         </div>
     );
