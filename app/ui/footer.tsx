@@ -14,15 +14,14 @@ export default function Footer() {
                 <div className="space-y-2">
                     <h1 className="font-semibold">Companies & Initiatives</h1>
                     <ul>
-                        <li><Link target="_blank" href="https://codextreme.io">CodeXtreme</Link></li>
+                        <li><Link target="_blank" href="https://www.codextreme.io">CodeXtreme</Link></li>
                     </ul>
                 </div>
                 <div className="space-y-2">
                     <h1 className="font-semibold">Activities & Fun</h1>
                     <ul className="space-y-1">
-                        <li><Link href="https://blog.murairi.com" target="_blank">Essays</Link></li>
+                        <li><Link href="https://www.blog.murairi.com" target="_blank">Essays</Link></li>
                         <li><Link target="_blank" href="http://www.youtube.com/@engineering1O1">YouTube</Link></li>
-                        <li><Link href="/builds">Cédric Builds</Link></li>
                     </ul>
                 </div>
                 <div className="space-y-2">
@@ -30,7 +29,7 @@ export default function Footer() {
                     <ul className="space-y-1">
                         <li><Link target="_blank" href="https://www.linkedin.com/in/cedric-murairi/">LinkedIn</Link></li>
                         <li><Link target="_blank" href="https://www.instagram.com/cedricmurairi/">Instagram</Link></li>
-                        <li><Link target="_blank" href="https://x.com/CedricMurairi">X - Twitter</Link></li>
+                        <li><Link target="_blank" href="https://www.x.com/CedricMurairi">X - Twitter</Link></li>
                     </ul>
                 </div>
             </div>

@@ -41,8 +41,7 @@ export default function CedBuilds() {
                     <div className="bg-white p-6 rounded-lg max-w-md w-[90%] md:w-full border border-gray-400" onClick={(e) => e.stopPropagation()}>
                         <h2 className="text-sm mb-2">Cédric Builds For Fun 😁</h2>
                         <div className="space-y-1 text-xs mb-2">
-                            <p>Is a collection of small projects and experiments by Cédric Murairi, showcasing his curiosity, craftsmanship, and love for software, innovation, and technology.</p>
-                            <p>Explore the collection <Link className="underline" href="/cedric-builds">here!</Link></p>
+                            <p>Is a collection of small/medium/big projects and experiments by Cédric Murairi, showcasing his curiosity, craftsmanship, and love for software (hardware in the future), innovation, and technology.</p>
                         </div>
                         <h2 className="text-sm mb-2">Got a small, fun, or cool idea for Cédric Builds?</h2>
                         <div className="space-y-1 text-xs mb-2">
