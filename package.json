@@ -23,5 +23,20 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.22",
     "@eslint/eslintrc": "^3"
+  },
+  "pnpm": {
+    "overrides": {
+      "minimatch@3": "^3.1.5",
+      "minimatch@9": "^9.0.9",
+      "brace-expansion@1": "^1.1.18",
+      "brace-expansion@2": "^2.1.4",
+      "picomatch@2": "^2.3.2",
+      "picomatch@4": "^4.0.5",
+      "js-yaml@4": "^4.3.1",
+      "flatted@3": "^3.4.4",
+      "ajv@6": "^6.15.0",
+      "postcss@8": "^8.5.25",
+      "sharp": "^0.35.3"
+    }
   }
 }
